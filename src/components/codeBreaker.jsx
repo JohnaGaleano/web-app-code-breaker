@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./styles.css";
 
-
-
 function Result (props) {
   const { result } = props;
   return (
@@ -104,7 +102,7 @@ class CodeBreaker extends Component {
                   <input
                     name="secret"
                     type="number"
-                    className="form-control form-control-lg form-rounded"
+                    className="setsecret"
                     placeholder="secret"
                     onChange={this.handleChange}
                     required
@@ -127,7 +125,7 @@ class CodeBreaker extends Component {
                   <input
                     name="guess"
                     type="number"
-                    className="form-control form-control-lg form-rounded"
+                    className="setguess"
                     placeholder="secret"
                     onChange={this.handleChangeGuess}
                     required
