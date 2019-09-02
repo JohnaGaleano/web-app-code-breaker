@@ -103,7 +103,7 @@ class CodeBreaker extends Component {
                     name="secret"
                     type="number"
                     className="setsecret"
-                    placeholder="secret"
+                    placeholder="Secret"
                     onChange={this.handleChange}
                     required
                   />
@@ -126,7 +126,7 @@ class CodeBreaker extends Component {
                     name="guess"
                     type="number"
                     className="setguess"
-                    placeholder="secret"
+                    placeholder="Guess"
                     onChange={this.handleChangeGuess}
                     required
                   />
