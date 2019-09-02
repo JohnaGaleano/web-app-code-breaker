@@ -134,7 +134,7 @@ class CodeBreaker extends Component {
 
                 <button
                   type="submit"
-                  className="submit"
+                  className="submitGuess"
                 >
                   Guess
                 </button>
