@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Secret from './components/secret'
+import CodeBreaker from './components/codeBreaker'
 
 function App() {
   return (
-<Secret />
+<CodeBreaker />
   );
 }
 
